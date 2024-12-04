@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите текст"
+        android:inputType="text"
+        android:minHeight="48dp" />
+
+    <Button
+        android:id="@+id/saveSharedPrefButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить в SharedPreferences" />
+
+    <Button
+        android:id="@+id/loadSharedPrefButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Загрузить из SharedPreferences" />
+
+    <Button
+        android:id="@+id/saveToFileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сохранить в файлы" />
+
+    <Button
+        android:id="@+id/loadFromFileButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Загружено из файлов" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:padding="16dp"
+        android:background="#f0f0f0"
+        android:layout_marginTop="16dp" />
+</LinearLayout>
